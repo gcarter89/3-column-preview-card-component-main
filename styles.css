@@ -27,11 +27,11 @@ button:hover {
     background-color: transparent;
 }
 
-button > span > p {
+button > a {
     font-size: 1.1em;
 }
 
-button:hover > span > p {
+button:hover > a {
     color: hsl(0, 0%, 95%) !important;
 }
 
@@ -49,6 +49,11 @@ p {
     margin-bottom: auto;
 }
 
+a {
+    font-family: Lexend Deca, sans-serif;
+    text-decoration: none;
+}
+
 .card {
     padding: 15%;
 }
@@ -57,7 +62,7 @@ p {
     background-color: var(--sedans);
 }
 
-#sedans > button > span > p {
+#sedans > button > a {
     color: var(--sedans);
 }
 
@@ -65,7 +70,7 @@ p {
     background-color: var(--suvs);
 }
 
-#suvs > button > span > p {
+#suvs > button > a {
     color: var(--suvs);
 }
 
@@ -73,7 +78,7 @@ p {
     background-color: var(--luxury);
 }
 
-#luxury > button > span > p {
+#luxury > button > a {
     color: var(--luxury);
 }
 

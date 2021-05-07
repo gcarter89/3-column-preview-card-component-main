@@ -19,19 +19,14 @@ button {
     border: none;
     margin-top: 2em;
     transition: all 0.3s ease-in-out;
+    font-size: 1em;
+    font-family: Lexend Deca, sans-serif;
 }
 
 button:hover {
     cursor: pointer;
     border: 1px solid hsl(0, 0%, 95%);
     background-color: transparent;
-}
-
-button > a {
-    font-size: 1.1em;
-}
-
-button:hover > a {
     color: hsl(0, 0%, 95%) !important;
 }
 
@@ -62,7 +57,7 @@ a {
     background-color: var(--sedans);
 }
 
-#sedans > button > a {
+#sedans > button {
     color: var(--sedans);
 }
 
@@ -70,7 +65,7 @@ a {
     background-color: var(--suvs);
 }
 
-#suvs > button > a {
+#suvs > button {
     color: var(--suvs);
 }
 
@@ -78,11 +73,9 @@ a {
     background-color: var(--luxury);
 }
 
-#luxury > button > a {
+#luxury > button {
     color: var(--luxury);
 }
-
-
 
 @media only screen and (max-width: 767px) {
     body {
@@ -126,7 +119,7 @@ a {
     }
 
     button {
-         position: absolute;
+        position: absolute;
         bottom: 8%;
         left: 16%;
     }

@@ -27,11 +27,11 @@ button:hover {
     background-color: transparent;
 }
 
-button > p {
+button > span > p {
     font-size: 1.1em;
 }
 
-button:hover > p {
+button:hover > span > p {
     color: hsl(0, 0%, 95%) !important;
 }
 
@@ -57,7 +57,7 @@ p {
     background-color: var(--sedans);
 }
 
-#sedans > button > p {
+#sedans > button > span > p {
     color: var(--sedans);
 }
 
@@ -65,7 +65,7 @@ p {
     background-color: var(--suvs);
 }
 
-#suvs > button > p {
+#suvs > button > span > p {
     color: var(--suvs);
 }
 
@@ -73,7 +73,7 @@ p {
     background-color: var(--luxury);
 }
 
-#luxury > button > p {
+#luxury > button > span > p {
     color: var(--luxury);
 }
 

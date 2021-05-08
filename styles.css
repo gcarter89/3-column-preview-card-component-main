@@ -9,6 +9,7 @@
 
 body {
     display: flex;
+    background-color: hsl(0, 0%, 95%);
     margin: 0;
 }
 
